@@ -16,7 +16,17 @@ function getWeather() {
         displayWeather(data);
     })
     .catch(error => {
-        console.error("Error Fetching Data", Error);
+        console.error("Error Fetching Data", error);
         alert("Error fetching Data. Try again.");
+    });
+
+    fetch(forecastURL)
+    .then(response => response.json())
+    .then(data => {
+        displayDailyForecast(data.list);
+    })
+    .catch(error => {
+        console.error('Error fetching daily forecast', error);
+        alert('Error fetching daily Forecast Data. Please try again.');
     });
 }
