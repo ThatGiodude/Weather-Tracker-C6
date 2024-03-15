@@ -6,4 +6,4 @@ This application is designed to be used quickly and accurately, giving the avera
 
 Going forward I would like to update the UI and add new features, such as images or logos to make it more easy to read to users. I would also like to add other details such as rain or cloudy reports.
 
-The deployed page is featured at [ ].
+The deployed page is featured at [https://thatgiodude.github.io/Weather-Tracker-C6/ ].
